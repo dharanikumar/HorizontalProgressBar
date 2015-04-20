@@ -1,8 +1,9 @@
-# Ripple-progress
-=================
+# HorizontalProgressBar
+----------------------
 
-Ripple progress is similar to the progressbar in GoogleNow application. This repo has example to demonstration & how to use.
+HorizontalProgressBar is similar to the progressbar in GoogleNow application. It is simple, customizable horizontal indeterminate ProgressBar and easy to use. This repo has example usage.
 
+![HorizontalProgressbar] (images/horizontalprogress.gif)
 
 Usage
 -----
