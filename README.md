@@ -1,7 +1,7 @@
 # Ripple-progress
 =================
 
-Ripple progress is similar to the progressbar in GoogleNow application. This repo has example to demonstrate how to use awesome ripple progress.
+Ripple progress is similar to the progressbar in GoogleNow application. This repo has example to demonstration & how to use.
 
 
 Usage
@@ -36,3 +36,30 @@ create a object for ProgressLayout & configure color codes you want
         //...
     }
 ```
+use the following method to show / hide progress
+```java
+
+    progress.setRefreshing(true);  //true  --  show progress
+                                   //false --  hide progress
+
+
+```
+######Example
+```java
+
+        button.setOnClickListener(new View.OnClickListener() {
+
+                    @Override
+                    public void onClick(View v) {
+                        // TODO Auto-generated method stub
+                        if (progress.isRefreshing()) {
+                            progress.setRefreshing(false);
+                        }
+                        else{
+                            progress.setRefreshing(true);
+                        }
+                    }
+                });
+
+```
+
