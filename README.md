@@ -1,6 +1,5 @@
 # HorizontalProgressBar
 ----------------------
-
 HorizontalProgressBar is similar to the progressbar in GoogleNow application. It is simple, customizable horizontal indeterminate ProgressBar and easy to use. This repo has example usage.
 
 ![HorizontalProgressbar] (images/horizontalprogress.gif)
